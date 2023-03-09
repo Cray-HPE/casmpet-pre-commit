@@ -1,0 +1,7 @@
+---
+# - id: ID
+#   name: NAME
+#   description: DESCRIPTION
+#   entry: ENTRY
+#   language: LANGUAGE
+#   stages: [commit, push, manual]
