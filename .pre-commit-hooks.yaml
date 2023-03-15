@@ -1,7 +1,7 @@
 ---
-# - id: ID
-#   name: NAME
-#   description: DESCRIPTION
-#   entry: ENTRY
-#   language: LANGUAGE
-#   stages: [commit, push, manual]
+- id: shellcheck
+  name: Run shellcheck
+  description: This runs shellcheck on any files that have been added/modified.
+  entry: hooks/shellcheck.sh
+  language: script
+  stages: [commit]
